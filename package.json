@@ -1,0 +1,16 @@
+{
+  "name": "matador-portfolio-forge",
+  "version": "1.0.0",
+  "description": "Generate a stunning GitHub README portfolio from your profile, repos, and config",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "portfolio-forge": "./index.js"
+  },
+  "scripts": {
+    "generate": "node index.js"
+  },
+  "keywords": ["github", "portfolio", "readme", "github-profile", "automation"],
+  "author": "El Matador",
+  "license": "MIT"
+}
